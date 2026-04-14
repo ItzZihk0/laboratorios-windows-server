@@ -72,31 +72,29 @@ Las VMs están en red interna con acceso a internet a través del adaptador del 
 ## Estructura del repositorio
 
 ```
-infrazihk-windows-server/
+laboratorios-windows-server/
 │
 ├── README.md
+├── LICENSE
 │
 ├── lab-01-infrazihk/
-│   ├── README.md                   
+│   ├── README.md
 │   │
-│   ├── lab-01-ad-ds-dns-gpo-replicacion/
+│   ├── 01-instalacion-ad/
 │   │   ├── README.md
-│   │   │
-│   │   ├── 01-instalacion-ad/
-│   │   │   ├── README.md
-│   │   │   └── screenshots/
-│   │   │
-│   │   ├── 02-dns/
-│   │   │   ├── README.md
-│   │   │   └── screenshots/
-│   │   │
-│   │   ├── 03-gpo/
-│   │   │   ├── README.md
-│   │   │   └── screenshots/
-│   │   │
-│   │   ├── 04-replicacion/
-│   │   │   ├── README.md
-│   │   │   └── screenshots/
+│   │   └── screenshots/
+│   │
+│   ├── 02-dns/
+│   │   ├── README.md
+│   │   └── screenshots/
+│   │
+│   ├── 03-gpo/
+│   │   ├── README.md
+│   │   └── screenshots/
+│   │
+│   └── 04-replicacion/
+│       ├── README.md
+│       └── screenshots/
 │
 └── _recursos/
     └── base-vms.md
